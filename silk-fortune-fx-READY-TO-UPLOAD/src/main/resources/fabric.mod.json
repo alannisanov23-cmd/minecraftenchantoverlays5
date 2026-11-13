@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "silkfortunefx",
+  "version": "${version}",
+  "name": "Silk & Fortune Glow",
+  "description": "Animated slot frames in inventory/hotbar and sparkles around the held item, so Silk Touch and Fortune tools are instantly distinguishable.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.silkfortunefx.SilkFortuneFxClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
